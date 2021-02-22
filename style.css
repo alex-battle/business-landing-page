@@ -17,14 +17,18 @@ html{
 /* Navbar */
 .navbar{
     width: 100%;
-    height: 100vh;
+    height: 8rem;
     background-color: rgba(0, 0, 0, .9);
     position: fixed;
     top: 0;
     z-index: 10;
     padding: 3rem;
+    transition: height .5s;
 }
 
+.navbar.change{
+    height: 100vh;
+}
 .logo{
     position: absolute;
     top: 1.5rem;
@@ -52,9 +56,15 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s;
 }
-
+.change .nav-list{
+    opacity: 1;
+    visibility: visible;
+    transition: all .7s .5s;
+}
 .nav-link{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 4rem;
@@ -88,14 +98,24 @@ html{
     width: 100%;
     height: .2rem;
     background-color: white;
+    transition: transform .3s;
 }
 
 .line-1{
     width: 50%;
 }
+.change .line-1{
+    transform: translate(100%, 1rem) rotate(-35deg);
+    transform-origin: right;
+}
 .line-3{
     width: 50%;
     margin-left: auto;
+}
+
+.change .line-3{
+    transform: translateY(-1rem) rotate(35deg);
+    transform-origin: right;
 }
 /* End of menu */
 /* Section 1 */
