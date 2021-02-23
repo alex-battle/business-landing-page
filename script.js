@@ -38,5 +38,10 @@ video.addEventListener('timeupdate', () =>{
     const barWidth = video.currentTime/video.duration
     bar.style.width = `${barWidth * 100}%`
 })
+// make icon switch back to play once video has ended
+if (video.ended){
+    btn.className - 'far fa-play-circle'
+    video.style.opacity = .3
+}
 
 // End of Section 2 video
