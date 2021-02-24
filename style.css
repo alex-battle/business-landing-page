@@ -624,5 +624,9 @@ html{
     background-color: #7a1010;
     cursor: pointer;
     text-transform: uppercase;
+    transition: background-color .3s;
+}
+.contact-form input[type="submit"]:hover{
+    background-color: red;
 }
 /* End of Section 4 */
