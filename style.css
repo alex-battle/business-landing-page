@@ -543,3 +543,48 @@ html{
     color: #fff;
 }
 /* End of section 3 */
+
+/* Section 4 */
+.section-4{
+    width: 100%;
+    height: 100vh;
+    background-color: #171718;
+    display: flex;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.contact-wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-details{
+    display: flex;
+    margin-bottom: 8rem;
+}
+
+.contact-details div{
+    width: 25rem;
+    text-align: center;
+    margin: 4rem;
+}
+
+.contact-details i{
+    font-size: 5rem;
+    color: red;
+}
+
+.contact-details h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    color: #ccc;
+}
+.contact-details p{
+    font-size: 1.6rem;
+    color: #aaa;
+}
+/* End of Section 4 */
