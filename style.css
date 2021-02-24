@@ -587,4 +587,42 @@ html{
     font-size: 1.6rem;
     color: #aaa;
 }
+
+.contact-wrapper h1{
+    font-size: 4rem;
+    color: #ccc;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.contact-form{
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding: 1.5rem;
+    background-color: #444;
+    color: #eee;
+    border: none;
+    margin-bottom: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+}
+
+.contact-form textarea{
+    max-width: 100%;
+    max-height: 15rem;
+    min-height: 5.5rem;
+}
+
+.contact-form input[type="submit"]{
+    background-color: #7a1010;
+    cursor: pointer;
+    text-transform: uppercase;
+}
 /* End of Section 4 */
