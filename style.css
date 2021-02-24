@@ -646,12 +646,18 @@ html{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2rem;
     color: #ccc;
-    margin-right: 3rem;
+    margin-left: 3rem;
     letter-spacing: .1rem;
     transition: color .5s;
 }
 
 .footer-nav a:hover{
     color: red;
+}
+
+.copyright{
+    color: white;
+    font-size: 2rem;
+    margin-right: 3rem;
 }
 /* End of Footer */
